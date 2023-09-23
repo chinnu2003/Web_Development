@@ -1,0 +1,155 @@
+.top{
+    background-color: azure;
+}
+
+h1{
+    margin: 50px auto 0  auto; 
+    font-size: 5.625em;
+    color: #66bfbf;
+    margin: 0 auto ;
+    font-family: 'Sacramento',Arial, Helvetica, sans-serif ;    
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999e;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'sans-serif';
+}
+
+.middle {
+    height: 200px;
+    width: 200px;
+    background-color: sandybrown;
+}
+
+.profile{
+    margin: 20px 0 0 0;
+}
+
+p{
+    line-height: 1.5;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 70px auto;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom{
+    background-color:rgb(180, 225, 246);
+    padding: 40px 0 30px;
+}
+
+a{
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.cloud-1 {
+    position: relative;
+    right: 10%;
+    top: 10%;
+}
+.cloud-2 {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.mountain{
+    position: relative;
+    object-fit: cover;
+    right:7px;
+}
+
+.sun{
+    position: absolute;
+    left: 33%;
+    bottom: -41%;
+    opacity: 0;
+}
+
+.skill-row{
+    width: 55%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.65;
+}
+
+.sun:hover{
+    opacity: 100;
+}
+
+img.thunder_1 {
+    position: relative;
+    right: -167px;
+    top: 159px;
+}
+img.thunder_2 {
+    position: relative;
+    top: 30px;
+    left: -557px;
+}
+
+.skill_image{
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.colorwheel{
+    position: relative;
+    width: 15%;
+    float:right;
+    margin-left: 20px;
+}
